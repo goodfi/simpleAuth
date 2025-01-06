@@ -10,5 +10,5 @@ export const Register = async (values: z.infer<typeof RegisterSchema>) => {
     return { error: 'Invalid Fields!' };
   }
 
-  return { success: 'Email send!' };
+  return { success: 'Create Account' };
 };
